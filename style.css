@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)) , url(./celebration-background-with-colorful-party-flag-falling-confetti_1314-2538.avif);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color:#fff;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+
+}
+/* .links{
+    width:15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #414658; */
+   /* display: none; */
+/* } */
+
+.links{
+    width:15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #414658;
+   /* display: none; */
+   left:-30%;
+   z-index: 999999999999999;
+}
+
+
+.menue{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left:5%;
+    z-index: 9999999999;
+}
+
+.menue p{
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+.menue i{
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 22px;
+}
+.links li{
+    margin: 25px 20px;
+    font-family: sans-serif;
+    list-style: none;
+    font-size: 22px;
+}
+.fa-sharp {
+    color:#fff;
+    position: relative;
+    left:90%;
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.fa-sharp:hover {
+
+    color:#d83434;
+}
+a:hover{
+    color:#d83434;
+}
+@media screen and (max-width:992px){
+   .links{
+    width:25%;
+
+   }
+    .links li{
+       position: relative;
+       left: -25%;
+      
+      
+    }
+   
+    .fa-sharp {
+        color:#fff;
+        position: relative;
+        left:85%;
+    }
+    .menue{
+        display: flex;
+        position: fixed;
+        top: 30%;
+        left:29%;
+        z-index: 99999999999;
+    }
+    .menue p{
+        padding: 0 10px;
+        cursor: pointer;
+    }
+    .menue i{
+        padding: 5px 0;
+        cursor: pointer;
+    }
+}
+
+.section1{
+    width:60%;
+    margin: auto;
+    text-align: center;
+    background-color: #d83434;
+}
+
+.singer-one,.singer-two,.singer-three,.singer-four{
+    background-color: #414658;
+
+}
+
+.singer-one p,.singer-two p,.singer-three p,.singer-four p{
+   display: none;
+
+}
+.singer-one h2,.singer-two h2,.singer-three h2,.singer-four h2{
+    cursor: pointer;
+ 
+ }
+
+
+ h1{
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+  
+  #clockdiv{
+    font-family: sans-serif;
+    color: #f6f6f6;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+  }
+  
+  #clockdiv  div{
+    padding: 10px;
+    border-radius: 3px;
+   
+    display: inline-block;
+  }
+  
+  #clockdiv   span{
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #d83434;
+    display: inline-block;
+  }
+  
+  .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+  }
+
+  .section2{
+    width: 100%;
+    background-image: url(./celebration-background-with-colorful-party-flag-falling-confetti_1314-2538.avif);
+    background-position: center;
+    background-size: cover;
+  }
+
+  ul li{
+    list-style: none;
+    margin: 15px 0;
+  }
+  .roww{
+    position: relative;
+    left: 3%;
+  }
+  .fa-facebook,.fa-twitter,.fa-google-plus-g,.fa-github,.fa-linkedin,.fa-yahoo{
+    background-color: rgb(0, 0, 0);
+    color:#e4e5e9;
+    font-size: 22px;
+    cursor: pointer;
+   
+    transition:0.5s
+  }
+
+  .fa-facebook:hover,.fa-twitter:hover,.fa-google-plus-g:hover,.fa-github:hover,.fa-linkedin:hover,.fa-yahoo:hover{
+    background-color: rgb(154, 19, 19);
+    color:#e4e5e9;
+  }
